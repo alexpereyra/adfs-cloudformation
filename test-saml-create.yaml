@@ -1,0 +1,8 @@
+Resources:
+  SAMLProvider:
+    Type: Custom::SAMLProvider
+    Properties:
+      Name: auth0
+      Metadata: |
+
+      ServiceToken: !Sub 'arn:aws:lambda:${AWS::Region}:${AWS::AccountId}:function:cfn-saml-provider'
