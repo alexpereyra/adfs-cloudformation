@@ -2,6 +2,8 @@
 
 Automate the build and configuration of ADFS using CloudFormation. Using the resources below as a baseline, this stack creates and configures server 2016 ADFS and joined to a domain as primary.
 
+![adfs cloudformation diagram](images/adfs-cloudformation-api-flow.png)
+
 # resources
 
 - Active Directory Domain Services on AWS - Quickstarts
