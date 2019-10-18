@@ -1,5 +1,6 @@
 # adfs-cloudformation
-automate the build of ADFS using CloudFormation
+
+Automate the build and configuration of ADFS using CloudFormation. Using the resources below as a baseline, this stack creates and configures server 2016 ADFS and joined to a domain as primary.
 
 # resources
 
